@@ -22,7 +22,7 @@ Launch 4-5 parallel research agents to capture real-time reactions to new AI mod
 ```bash
 # Copy SKILL.md to your Claude Code skills directory
 mkdir -p ~/.claude/skills/model-intel
-curl -o ~/.claude/skills/model-intel/SKILL.md https://raw.githubusercontent.com/YOUR-USERNAME/model-intel-skill/main/SKILL.md
+curl -o ~/.claude/skills/model-intel/SKILL.md https://raw.githubusercontent.com/elrolio/model-intel-skill/main/SKILL.md
 ```
 
 ### 2. Run
