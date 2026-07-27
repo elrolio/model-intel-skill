@@ -3,7 +3,8 @@ name: model-intel
 description: Day-one intelligence gathering for newly released AI models (LLMs, generative media)
 ---
 
-Execute comprehensive day-one intelligence gathering for: **$ARGUMENTS**
+Execute comprehensive day-one intelligence gathering for the model the user named. If they have not
+named one, ask which model before doing anything else.
 
 **Scope**: LLMs and generative media models only (text, image, video, audio generation models)
 

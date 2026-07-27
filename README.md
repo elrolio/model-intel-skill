@@ -18,11 +18,20 @@ Launch 4-5 parallel research agents to capture real-time reactions to new AI mod
 
 ## Quick Start
 
-### 1. Install (One Command)
+### 1. Install
+
+Paste both lines into Claude Code:
+
+```
+/plugin marketplace add elrolio/skills
+/plugin install model-intel@elrolio
+```
+
+Or drop the skill in by hand:
+
 ```bash
-# Copy SKILL.md to your Claude Code skills directory
-mkdir -p ~/.claude/skills/model-intel
-curl -o ~/.claude/skills/model-intel/SKILL.md https://raw.githubusercontent.com/elrolio/model-intel-skill/main/SKILL.md
+git clone https://github.com/elrolio/model-intel-skill.git /tmp/mis
+cp -R /tmp/mis/skills/model-intel ~/.claude/skills/
 ```
 
 ### 2. Run

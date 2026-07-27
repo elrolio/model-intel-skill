@@ -1,0 +1,13 @@
+{
+  "name": "model-intel",
+  "description": "Day-one intelligence gathering for a newly released AI model. Runs parallel research agents across social, community, benchmark, and enterprise sources, then produces a single VIBES (sentiment) + DEETS (technical) report with competitive positioning and cited sources.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Matthew Scott",
+    "url": "https://github.com/elrolio"
+  },
+  "homepage": "https://elrolio.mintlify.app",
+  "repository": "https://github.com/elrolio/model-intel-skill",
+  "license": "MIT",
+  "keywords": ["ai-models", "competitive-intelligence", "research", "launch", "benchmarks", "sentiment", "llm"]
+}
